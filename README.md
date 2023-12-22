@@ -4,12 +4,12 @@
 **Airbnb data analysis project for the city of Berlin as of: September 16th, 2023.**
 
 ## 📚  Table of Contents
-- [📄  Importing The Datasets (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#importing-the-datasets)
+- [📄  Importing The Datasets (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis/blob/main/README.md#importing-the-datasets)
 - [🧹 Cleaning the tables (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis/blob/main/README.md#cleaning-the-tables)
 - [🏠 Property Metrics (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#property-metrics)
 - [👥 Host Metrics (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#host-metrics)
 - [🏙️ Neighbourhood Metrics (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#neighbourhood-metrics)
-- [📆 Booking/Availability Metrics (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#booking-availability-metrics)
+- [📆 Booking/Availability Metrics (SQL)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#bookingavailability-metrics)
 - [🎨 Data Visualization (Tableau)](https://github.com/mihaivlasceanu/Berlin-Airbnb-Data-Analysis#data-visualization)
 
 ## Importing The Datasets
@@ -474,6 +474,7 @@ LIMIT 10
 | Allende-Viertel           | 0-99        | 3     | 100.00 |
 | Alt-Hohenschönhausen Süd  | 0-99        | 8     | 47.06  |
 | Altstadt-Kietz            | 0-99        | 4     | 66.67  |
+
 **6.2 Price range distribution by neighbourhood_group**
 ```sql
 WITH price_range_cte AS (
